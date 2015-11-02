@@ -1,0 +1,47 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:              pretty
+# permalink:            blog/:categories/:year/:month/:day/:title/
+relative_permalinks:    true
+
+# Setup
+title:            'Anjana Sofia Vakil'
+#tagline:          ''
+description:      'Language technologist and full-stack developer'
+#url:              http://vakila.github.io/website
+baseurl:          http://vakila.github.io/website/
+# blogurl:          /blog/
+
+author:
+  name:           'Anjana Sofia Vakil'
+  url:            http://vakila.github.io
+  email:          'anjanavakil@gmail.com'
+  github:         'http://github.com/vakila'
+  facebook:       'http://www.facebook.com/anjana.vakil'
+  twitter:        'https://twitter.com/AnjanaVakil'
+  googleplus:     ''
+  linkedin:       ''
+
+paginate:         5
+# paginate_path:    "/blog/page:num/"
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/vakila/vakila.github.io
+
+# Collections
+collections:
+  - projects
+
+# defaults:
+#   -
+#     scope:
+#       path: ""
+#       type: "projects" # a collection in your site, in plural form
+#     values:
+#       layout: "default"

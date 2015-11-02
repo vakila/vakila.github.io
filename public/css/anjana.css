@@ -1,0 +1,202 @@
+/* Basics */
+.center-align {
+    text-align: center;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.right-align {
+    text-align: right;
+}
+
+/* Font */
+html {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/*h1, /*h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}*/
+
+.content h1 {
+  font-size: 2rem;
+  padding-top:0.5rem;
+}
+
+
+/* Override Hyde/Poole */
+@media (min-width: 48em) {
+  .content, .container {
+    max-width: none;
+  }
+}
+
+@media (min-width: 48em) {
+  .sidebar {
+    width: 20rem;
+    height: 100vh;
+    overflow-y: auto;
+    padding-top:4rem;
+  }
+}
+
+.sidebar-about h1 {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* From Bootstrap */
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+
+/* Adapted from Alexandre Vicenzi https://alexandrevicenzi.com/ */
+.btn-social {
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    width: 2.5em;
+    height: 2.5em;
+    font-size: 2em;
+    line-height: 2.5em;
+}
+
+
+.btn-outline {
+    margin-top: 3vh;
+    border: solid 2px #fff;
+    font-size: 1em;
+    transition: all .3s ease-in-out;
+    background: #fff;
+}
+a.btn-outline {
+    color: rgb(32, 32, 32);
+}
+
+
+/* Custom */
+
+/*a, .sidebar {
+    transition: all .3s ease-in-out;
+}*/
+
+.sidebar a:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.sidebar a:active {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+#credits a {
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+a.btn-outline:hover,
+a.btn-outline:active {
+    opacity: .75;
+    background: 0;
+    color: #fff;
+}
+
+a.btn-outline:active {
+    opacity: 1;
+}
+
+.blog-nav {
+    margin-top: -2em;
+    margin-bottom: .5em;
+    /*font-size: .75em;*/
+    text-align: center;
+}
+
+.page-title {
+    padding-bottom: 1em;
+}
+
+/* this does some magic that preserves the 8.5x11" aspect ratio */
+.pdf-container {
+    height: 0;
+    width: 100%;
+    padding-bottom: 129.41%; /* 11/8.5 = 1.2941 */
+    overflow: hidden;
+    position: relative;
+}
+
+.pdf-container object {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/* Projects */
+
+/*.project {
+    border-top: 1px solid gray;
+    padding: 5px
+}*/
+
+/*.project-tagline {
+    opacity: .5;
+}*/
+
+
+
+/* COLORS */
+
+/* Red */
+.theme-base-08 .btn-outline {
+  color: #ac4142;
+}
+
+/* Orange */
+.theme-base-09 .btn-outline {
+  color: #d28445;
+}
+
+/* Yellow */
+.theme-base-0a .btn-outline {
+  color: #DCAC69; /*#f4bf75;*/
+}
+
+/* Green */
+.theme-base-0b .btn-outline {
+  color: #90a959;
+}
+
+/* Cyan */
+.theme-base-0c .btn-outline {
+  color: #75b5aa;
+}
+
+/* Blue */
+.theme-base-0d .btn-outline {
+  color: #6a9fb5;
+}
+
+/* Magenta */
+.theme-base-0e .btn-outline {
+  color: #aa759f;
+}
+
+/* Brown */
+.theme-base-0f .btn-outline {
+  color: #8f5536;
+}
