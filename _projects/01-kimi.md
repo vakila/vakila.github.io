@@ -9,6 +9,7 @@ Kimi ("Keep It MInimal") is a lisp-like toy programming language interpreted in 
 which I created to learn more about programming languages and interpreters.
 Kimi is a small, elegant language with a minimal set of features
 (see the Github repo for more details):
+
 * Lambda expressions
 * Function application
 * Variable definition
