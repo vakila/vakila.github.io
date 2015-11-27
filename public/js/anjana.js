@@ -54,7 +54,7 @@ function addColorButton() {
 function addColorLink() {
     var credits = document.getElementById("credits");
     var colorlink = document.createElement("a");
-    var linkText = document.createTextNode("Hate this color?");
+    var linkText = document.createTextNode("Want a new color?");
     colorlink.appendChild(linkText);
     colorlink.title = "Click for relief!";
     colorlink.href = "#";
