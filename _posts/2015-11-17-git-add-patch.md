@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Cleaner commits with <code>git&nbsp;add&nbsp;&#8209;p</code>
+title: Cleaner commits with `git add -p`
 ---
 
-Today I learned how to use `git add --patch` (or `git add -p`) to make smaller, cleaner, more isolated git commits. My life is changed.
+Today I learned how to use `git add -p` (short for `git add --patch`) to make smaller, cleaner, more isolated git commits. My life is changed.
 
 ## When to use it
 
