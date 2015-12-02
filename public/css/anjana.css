@@ -162,41 +162,43 @@ a.btn-outline:active {
 /* COLORS */
 
 /* Red */
-.theme-base-08 .btn-outline {
+.theme-base-08 .btn-outline, .theme-base-08 code {
   color: #ac4142;
 }
 
 /* Orange */
-.theme-base-09 .btn-outline {
+.theme-base-09 .btn-outline, .theme-base-09 code {
   color: #d28445;
 }
 
 /* Yellow */
-.theme-base-0a .btn-outline {
+.theme-base-0a .btn-outline, .theme-base-0a code {
   color: #DCAC69; /*#f4bf75;*/
 }
 
 /* Green */
-.theme-base-0b .btn-outline {
+.theme-base-0b .btn-outline, .theme-base-0b code {
   color: #90a959;
 }
 
 /* Cyan */
-.theme-base-0c .btn-outline {
+.theme-base-0c .btn-outline, .theme-base-0c code {
   color: #75b5aa;
 }
 
 /* Blue */
-.theme-base-0d .btn-outline {
+.theme-base-0d .btn-outline, .theme-base-0d code {
   color: #6a9fb5;
 }
 
 /* Magenta */
-.theme-base-0e .btn-outline {
+.theme-base-0e .btn-outline, .theme-base-0e code {
   color: #aa759f;
 }
 
 /* Brown */
-.theme-base-0f .btn-outline {
+.theme-base-0f .btn-outline, .theme-base-0f code {
   color: #8f5536;
 }
+
+/* Black (no class on body - Poole defaults) */
