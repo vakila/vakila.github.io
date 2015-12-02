@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Site credits
 ---
-
-## Site credits
 
 This site is built with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and hosted on <a href="https://pages.github.com/" target="_blank">Github Pages</a>.
 
