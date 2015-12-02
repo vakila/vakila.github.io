@@ -158,46 +158,54 @@ a.btn-outline:active {
 }*/
 
 
+/* CODE */
+code {
+  color: inherit; /* code color matches text or link/title color */
+  white-space: nowrap;
+}
+pre > code {
+  white-space: pre-wrap; /* only code in <pre> blocks is allowed to wrap */
+}
 
 /* COLORS */
 
 /* Red */
-.theme-base-08 .btn-outline, .theme-base-08 code {
+.theme-base-08 .btn-outline {
   color: #ac4142;
 }
 
 /* Orange */
-.theme-base-09 .btn-outline, .theme-base-09 code {
+.theme-base-09 .btn-outline {
   color: #d28445;
 }
 
 /* Yellow */
-.theme-base-0a .btn-outline, .theme-base-0a code {
+.theme-base-0a .btn-outline {
   color: #DCAC69; /*#f4bf75;*/
 }
 
 /* Green */
-.theme-base-0b .btn-outline, .theme-base-0b code {
+.theme-base-0b .btn-outline {
   color: #90a959;
 }
 
 /* Cyan */
-.theme-base-0c .btn-outline, .theme-base-0c code {
+.theme-base-0c .btn-outline {
   color: #75b5aa;
 }
 
 /* Blue */
-.theme-base-0d .btn-outline, .theme-base-0d code {
+.theme-base-0d .btn-outline {
   color: #6a9fb5;
 }
 
 /* Magenta */
-.theme-base-0e .btn-outline, .theme-base-0e code {
+.theme-base-0e .btn-outline {
   color: #aa759f;
 }
 
 /* Brown */
-.theme-base-0f .btn-outline, .theme-base-0f code {
+.theme-base-0f .btn-outline {
   color: #8f5536;
 }
 
