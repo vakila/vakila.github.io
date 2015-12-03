@@ -12,7 +12,7 @@ title:            'Anjana Sofia Vakil'
 #tagline:          ''
 description:      'Language technologist and full-stack developer'
 #url:              http://vakila.github.io/
-baseurl:          http://vakila.github.io/
+baseurl:
 # blogurl:          /blog/
 
 author:
