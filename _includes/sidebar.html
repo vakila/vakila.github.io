@@ -2,7 +2,7 @@
   <div class="container left-align">
     <div class="sidebar-about">
       <h1>
-        <a href="{{ site.baseurl }}">
+        <a href="{{ site.baseurl }}/">
           {{ site.title }}
         </a>
       </h1>
@@ -10,7 +10,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <!-- <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a> -->
+      <!-- <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a> -->
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -29,21 +29,21 @@
       {% endcomment %}
 
       <a class="sidebar-nav-item"
-         href="{{ site.baseurl }}">Blog</a>
+         href="{{ site.baseurl }}/">Blog</a>
       {% comment %}{% if page.url contains "blog" %}
           <div class="blog-nav">
-            <a href="{{ site.baseurl }}archives/">Archives</a> &middot;
-            <a href="{{ site.baseurl }}categories/">Categories</a> &middot;
-            <a href="{{ site.baseurl }}tags/">Tags</a> &middot;
-            <a href="{{ site.baseurl }}atom.xml">Atom</a>
+            <a href="{{ site.baseurl }}/archives/">Archives</a> &middot;
+            <a href="{{ site.baseurl }}/categories/">Categories</a> &middot;
+            <a href="{{ site.baseurl }}/tags/">Tags</a> &middot;
+            <a href="{{ site.baseurl }}/atom.xml">Atom</a>
           </div>
       {% endif %}{% endcomment %}
       <a class="sidebar-nav-item"
-         href="{{ site.baseurl }}about/">About</a>
+         href="{{ site.baseurl }}/about/">About</a>
       <a class="sidebar-nav-item"
-         href="{{ site.baseurl }}resume/">Resume</a>
+         href="{{ site.baseurl }}/resume/">Resume</a>
       <a class="sidebar-nav-item"
-         href="{{ site.baseurl }}projects/">Projects</a>
+         href="{{ site.baseurl }}/projects/">Projects</a>
     </nav>
 
     <ul class="list-inline" id="sidebar-buttons">
