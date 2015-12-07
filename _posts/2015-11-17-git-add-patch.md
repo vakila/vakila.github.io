@@ -14,6 +14,9 @@ During that time I make a bunch of different changes to a certain file, `kimi.py
 
 At this point, if I stage all my changes with `git add kimi.py`, I'll have a commit which globs together all the different things I did.
 
+!['Git Commit' on XKCD](https://imgs.xkcd.com/comics/git_commit.png)
+*[XKCD](https://imgs.xkcd.com/comics/git_commit.png) knows my pain*
+
 So what?
 
 Well, if later on, after committing, I decide that most of the changes in that commit were useful, but one was a real fuck-up and I want to revert the commit, I'd have to manually go back and redo all of my other changes.
@@ -45,10 +48,12 @@ This allows me to make separate commits for the different parts of the file I ed
 If I want to make sure I've staged the right hunks, I can run `git diff --staged` to see exactly which changes are staged before making the commit.
 
 It's not perfect; for example, it's only aware of position in the code, so it can't distinguish two conceptually different changes that are right next to each other, as in:
+
     - this is an old line I deleted
     + (topic 1) this is a new line I added
     + (topic 1) this is another line related to the one above
     + (topic 2) this is a new line related to a different topic
+    
 ...but that would be expecting too much.
 
 In any case, you shouldn't be using `--patch` as an excuse to be more lazy about your committing habits. **Commit early, commit often, and work on one thing at a time.** But in those *rare* (ahem) cases  where for whatever reason you got behind on your git organization, `--patch` is your friend!
