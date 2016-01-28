@@ -106,8 +106,8 @@ a.btn-outline {
     text-decoration: none;
 }
 
-a.btn-outline:hover,
-a.btn-outline:active {
+/*a.btn-outline:active,*/
+a.btn-outline:hover {
     opacity: .75;
     background: 0;
     color: #fff;
