@@ -46,7 +46,7 @@ function addColorButton() {
     var colorButton = document.createElement("li");
     colorButton.id = "color-button";
     colorButton.onclick = function() { updateColor(); };
-    colorButton.innerHTML = '<a class="btn-social btn-outline" title="Change color"><i class="fa fa-fw fa-question-circle"></i></a>';
+    colorButton.innerHTML = '<a class="btn-social btn-outline" title="I wonder what this does..."><i class="fa fa-fw fa-question-circle"></i></a>';
     console.log(colorButton);
     buttonList.appendChild(colorButton);
 }
@@ -75,8 +75,8 @@ function restoreColorChoice() {
 
 function initializeColors() {
     restoreColorChoice();
-    // addColorButton();
-    addColorLink();
+    addColorButton();
+    //addColorLink();
 }
 
 window.onload = initializeColors;
