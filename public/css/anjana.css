@@ -77,11 +77,11 @@ html {
     margin-top: 3vh;
     border: solid 2px #fff;
     font-size: 1em;
-    transition: all .3s ease-in-out;
+    /*transition: all .3s ease-in-out;*/
     background: #fff;
 }
 a.btn-outline {
-    color: rgb(32, 32, 32);
+    color: inherit;
 }
 
 
@@ -115,6 +115,8 @@ a.btn-outline:hover {
 
 a.btn-outline:active {
     opacity: 1;
+    background: #fff;
+    color: inherit;
 }
 
 .blog-nav {
@@ -170,42 +172,42 @@ pre > code {
 /* COLORS */
 
 /* Red */
-.theme-base-08 .btn-outline {
+.theme-base-08 #sidebar-buttons {
   color: #ac4142;
 }
 
 /* Orange */
-.theme-base-09 .btn-outline {
+.theme-base-09 #sidebar-buttons {
   color: #d28445;
 }
 
 /* Yellow */
-.theme-base-0a .btn-outline {
+.theme-base-0a #sidebar-buttons {
   color: #DCAC69; /*#f4bf75;*/
 }
 
 /* Green */
-.theme-base-0b .btn-outline {
+.theme-base-0b #sidebar-buttons {
   color: #90a959;
 }
 
 /* Cyan */
-.theme-base-0c .btn-outline {
+.theme-base-0c #sidebar-buttons {
   color: #75b5aa;
 }
 
 /* Blue */
-.theme-base-0d .btn-outline {
+.theme-base-0d #sidebar-buttons {
   color: #6a9fb5;
 }
 
 /* Magenta */
-.theme-base-0e .btn-outline {
+.theme-base-0e #sidebar-buttons {
   color: #aa759f;
 }
 
 /* Brown */
-.theme-base-0f .btn-outline {
+.theme-base-0f #sidebar-buttons {
   color: #8f5536;
 }
 
