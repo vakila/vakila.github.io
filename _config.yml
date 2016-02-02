@@ -5,7 +5,6 @@ highlighter:      pygments
 # Permalinks
 permalink:              /blog/:categories/:title/
 # permalink:            blog/:categories/:year/:month/:day/:title/
-relative_permalinks:    true
 
 # Setup
 title:            'Anjana Sofia Vakil'
