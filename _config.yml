@@ -3,6 +3,7 @@ highlighter:      rouge
 
 gems:
   - jekyll-paginate
+  - jekyll-feed
 
 # Permalinks
 permalink:              /blog/:categories/:title/
@@ -10,6 +11,7 @@ permalink:              /blog/:categories/:title/
 
 # Setup
 title:            'Anjana Sofia Vakil'
+name:             'Anjana Sofia Vakil'
 #tagline:          ''
 description:      'Language technologist and software developer'
 #url:              http://vakila.github.io/
