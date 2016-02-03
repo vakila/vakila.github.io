@@ -1,5 +1,5 @@
 # Dependencies
-highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
 permalink:              /blog/:categories/:title/
