@@ -1,6 +1,9 @@
 # Dependencies
 highlighter:      rouge
 
+gems:
+  - jekyll-paginate
+
 # Permalinks
 permalink:              /blog/:categories/:title/
 # permalink:            blog/:categories/:year/:month/:day/:title/
