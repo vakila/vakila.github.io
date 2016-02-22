@@ -52,13 +52,15 @@ html {
     padding-left: 0;
     list-style: none;
     margin-left: -5px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.list-inline>li {
+/*.list-inline>li {
     display: inline-block;
-    padding-left: 0.2em;
-    padding-right: 0.2em;
-}
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+}*/
 
 /* Adapted from Alexandre Vicenzi https://alexandrevicenzi.com/ */
 .btn-social {
