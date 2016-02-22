@@ -218,3 +218,6 @@ pre > code {
 }
 
 /* Black (no class on body - Poole defaults) */
+#sidebar-buttons {
+  color: #000000;
+}
