@@ -103,6 +103,10 @@ a.btn-outline {
     text-decoration: none;
 }
 
+#credits {
+  font-size: 0.8em;
+}
+
 #credits a {
     opacity: 0.75;
     text-decoration: none;
