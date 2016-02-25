@@ -165,6 +165,17 @@ a.btn-outline:active {
     opacity: .5;
 }*/
 
+/* Talks */
+
+.talk {
+  margin-top: .5em;
+  margin-bottom: 1.5em;
+}
+
+.talk-subtitle {
+  margin-bottom: 0;
+}
+
 
 /* CODE */
 code {
