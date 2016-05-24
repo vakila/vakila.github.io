@@ -136,6 +136,12 @@ a.btn-outline:active {
     padding-bottom: 1em;
 }
 
+.post-subtitle {
+    color: #515151;
+    margin-top: -.5em;
+    margin-bottom: 1em;
+}
+
 /* this does some magic that preserves the 8.5x11" aspect ratio */
 .pdf-container {
     height: 0;
