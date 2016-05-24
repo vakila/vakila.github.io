@@ -6,6 +6,8 @@ tags: outreachy
 
 Today was my first day as an [Outreachy](https://gnome.org/outreachy) intern with [Mozilla](https://www.mozilla.org)! What does that even mean? Why is it super exciting? How did I swing such a sweet gig? How will I be spending my summer non-vacation? Read on to find out!
 
+[![Outreachy logo](https://outreachy.gnome.org/skins/easterngreen/css/img/outreachy-logo.png "Outreachy logo (outreachy.gnome.org)")](https://www.gnome.org/outreachy)
+
 ## What is Outreachy?
 
 [Outreachy](https://gnome.org/outreachy) is a fantastic initiative to get more women and members of other underrepresented groups involved in Free & Open Source Software. Through Outreachy, organizations that create open-source software (e.g. [Mozilla](https://www.mozilla.org/Outreachy), [GNOME](https://wiki.gnome.org/Outreach/Outreachy), [Wikimedia](https://www.mediawiki.org/wiki/Outreachy/Round_12), to name a few) take on interns to work full-time on a specific project for 3 months. There are two internship rounds each year, May-August and December-March. Interns are paid for their time, and receive guidance/supervision from an assigned mentor, usually a full-time employee of the organization who leads the given project.
