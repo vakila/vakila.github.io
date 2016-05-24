@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Outreachy: What? How? Why?
+title: "Outreachy: What? How? Why?"
 tags: outreachy
 ---
 
-Today is my first day as an [Outreachy](https://gnome.org/outreachy) intern with [Mozilla](https://www.mozilla.org)! What does that even mean? Why is it super exciting? How did I swing such a sweet gig? How will I be spending my summer non-vacation? Read on to find out!
+Today was my first day as an [Outreachy](https://gnome.org/outreachy) intern with [Mozilla](https://www.mozilla.org)! What does that even mean? Why is it super exciting? How did I swing such a sweet gig? How will I be spending my summer non-vacation? Read on to find out!
 
 ## What is Outreachy?
 
@@ -37,9 +37,9 @@ I'm sure every Outreachy participant has a different journey, but here's a rough
 Let's not forget that the first step to applying for any program/job/whatever is realizing that it exists! Like most people, I think, I had never heard of Outreachy, and was totally unaware that a remote, paid internship working on FOSS was a thing that existed in the universe. But then, in the fall of 2015, I made one of my all-time best moves ever by attending the [Recurse Center](https://www.recurse.com) (RC), where I soon learned about Outreachy from various Recursers who had been involved with the program. I discovered it about 2 weeks before applications closed for the December-March 2015-16 round, which was pretty last-minute; but a couple of other Recursers were applying and encouraged me to do the same, so I decided to go for it!
 
 #### Step 2: Frantically apply at last minute
-Applying to Outreachy is a relatively involved [process](https://wiki.gnome.org/Outreachy#Application_Process). A couple months before each round begins, the list of participating organizations/projects is released. Prospective applicants are supposed to find a project that interests them, get in touch with the project mentor, and make an initial contribution to that project (e.g. fixing a small bug).
+Applying to Outreachy is a relatively involved [process](https://wiki.gnome.org/Outreachy#Application_Process). A couple months before each round begins, the list of participating organizations/projects is released. Prospective applicants are supposed to find a project that interests them, get in touch with the project mentor, and make an initial contribution to that project (e.g. fix a small bug).
 
-Unfortunately, each of those tasks is pretty intimidating!
+But each of those tasks is pretty intimidating!
 
 First of all, the list of participating organizations is long and varied, and some organizations (like Mozilla) have tons of different projects available. So even reading through the project descriptions and choosing one that sounds interesting (most of them do, at least to me!) is no small task.
 
@@ -53,7 +53,7 @@ Once you've made your contribution, it's time to write the actual Outreachy appl
 
 #### Step 3: Don't get in
 
-Unfortunately, I didn't get in to the December-March round (although I was stoked to see some of my fellow Recursers get accepted!). I was a bit bummed, but not too surprised since my contributions and application had been so hectic and last-minute. Even though it wasn't successful, the application process was educational in and of itself: I learned how to use IRC, got 3 of my first 5 GitHub pull requests merged, and became a [contributor to the HTML standard](https://html.spec.whatwg.org/multipage/acknowledgements.html)! Not bad for a failure!
+Unfortunately, I didn't get in to the December-March round (although I was stoked to see some of my fellow Recursers get accepted!). Honestly, I wasn't too surprised, since my contributions and application had been so hectic and last-minute. But even though it wasn't successful, the application process was educational in and of itself: I learned how to use IRC, got 3 of my first 5 GitHub pull requests merged, and became a [contributor to the HTML standard](https://html.spec.whatwg.org/multipage/acknowledgements.html)! Not bad for a failure!
 
 #### Step 4: Decide to go for it again (at last minute, again)
 
@@ -84,9 +84,12 @@ But let's not forget d) luck. I was lucky to have encouragement and support from
 
 ## Why am I doing this?
 
-Last week I had the chance to attend [OSCON 2016](http://conferences.oreilly.com/oscon/open-source-us), where Mozilla's [E. Dunham](http://edunham.net/) gave a talk on [How to learn Rust](http://conferences.oreilly.com/oscon/open-source-us/public/schedule/detail/49024). A lot of the information applied to learning any language/new thing, though, including this great recommendation: When embarking on a new skill quest, record your motivation somewhere (I'm going to use this blog, but I suppose Twitter or a vision board or whatever would work too) before you begin. The idea is that once you're in the process of learning the new thing, you will probably have at least one moment where you're asking yourself what in the hell you were thinking when you began this project. So writing it down beforehand is just doing your future self a favor.
+Last week I had the chance to attend [OSCON 2016](http://conferences.oreilly.com/oscon/open-source-us), where Mozilla's [E. Dunham](http://edunham.net/) gave a talk on [How to learn Rust](http://conferences.oreilly.com/oscon/open-source-us/public/schedule/detail/49024). A lot of the information applied to learning any language/new thing, though, including this great recommendation: When embarking on a new skill quest, record your motivation somewhere (I'm going to use this blog, but I suppose Twitter or a vision board or whatever would work too) before you begin.
+
+The idea is that once you're in the process of learning the new thing, you will probably have at least one moment where you're stuck, frustrated, and asking yourself what the hell you were thinking when you began this crazy project. Writing it down beforehand is just doing your future self a favor, by saving up some motivation for a rainy day.
 
 So, future self, let it be known that I'm doing Outreachy to...
+
 * Write code for an actual real-world project (as opposed to academic/toy projects that no one will ever use)
 * Get to know a great organization that I've respected and admired for years
 * Try out working remotely, to see if it suits me
@@ -95,3 +98,8 @@ So, future self, let it be known that I'm doing Outreachy to...
 * Launch my career in the software industry
 
 I'm sure these goals will evolve as the internship goes along, but for now they're the main things driving me. Now it's just a matter of sitting back, relaxing, and working super hard all summer to achieve them! :D
+
+
+## Got any more questions?
+
+Are you curious about Outreachy? Thinking of applying? Confused about the application process? Feel free to reach out to me! Go on, don't be shy, just use one of those cute little contact buttons and drop me a line. :)
