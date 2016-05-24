@@ -11,7 +11,9 @@ title: Home
         {{ post.title | markdownify }}
       </a>
     </h1>
-
+    {% if post.subtitle %}
+      <h3 class="post-subtitle">{{ post.subtitle | markdownify  }}</h3>
+    {% endif %}
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
     {{ post.excerpt }}
