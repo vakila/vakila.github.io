@@ -25,6 +25,11 @@ html {
   padding-top:0.5rem;
 }
 
+h2, h3, h4, h5, h6 {
+  margin-top: 1.5em;
+  margin-bottom: .5em;
+}
+
 
 /* Override Hyde/Poole */
 @media (min-width: 48em) {
