@@ -178,6 +178,10 @@ a.btn-outline:active {
 
 /* Talks */
 
+.talk-section {
+  margin-top: 0;
+}
+
 .talk {
   margin-top: .5em;
   margin-bottom: 1.5em;
@@ -185,6 +189,27 @@ a.btn-outline:active {
 
 .talk-subtitle {
   margin-bottom: 0;
+}
+
+.talk-resource {
+  padding-right: 0.5em;
+}
+
+/* this does some magic that preserves the 8.5x11" aspect ratio */
+.slide-container {
+    height: 0;
+    width: 100%;
+    padding-bottom: 72%; /* 11/8.5 = 1.2941 */
+    overflow: hidden;
+    position: relative;
+}
+
+.slide-container object {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 
