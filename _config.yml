@@ -18,6 +18,10 @@ description:      'Language technologist and software developer'
 baseurl:
 # blogurl:          /blog/
 
+# Assets
+images:         '/img'
+pdfs:           '/pdf'
+
 author:
   name:           'Anjana Sofia Vakil'
   url:            vakila.github.io
