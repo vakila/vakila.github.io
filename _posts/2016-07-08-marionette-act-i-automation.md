@@ -37,7 +37,7 @@ Now, while this would be fun, if you have to do it a million times it would be l
 Wouldn't it be better if we could magically automate the whole thing? Maybe something like:
 
 {% highlight python %}
-import magical-automated-browser as client
+import magical_automated_browser as client
 
 client.navigate("https://www.youtube.com")
 client.find_element(By.ID, "search-bar").send_keys("Being John Malkovich")
