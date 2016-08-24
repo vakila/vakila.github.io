@@ -3,7 +3,7 @@ layout: post
 title: "Outreachy halftime(ish) update"
 ---
 
-It feels like yesterday that I [started my Outreachy internship]({% post_url 2016-05-23-outreachy-what-how-why %}), but it was actually over 2 months ago! For the last couple of weeks I've been on Outreachy hiatus because of [EuroPython](https://ep2016.europython.eu/en/), moving from [Saarbrücken to Berlin](https://goo.gl/maps/Rp7qp5Dvg5C2), and my mentor being on vacation. Now I'm back, with 6 weeks left in my internship! So it seems like a good moment to check in and reflect on how things have been going so far, and what's in store for the left of my time as an Outreachyee.
+It feels like yesterday that I [started my Outreachy internship]({% post_url 2016-05-23-outreachy-what-how-why %}), but it was actually over 2 months ago! For the last couple of weeks I've been on Outreachy hiatus because of [EuroPython](https://ep2016.europython.eu/en/), moving from [Saarbrücken to Berlin](https://goo.gl/maps/Rp7qp5Dvg5C2), and my mentor being on vacation. Now I'm back, with 6 weeks left in my internship! So it seems like a good moment to check in and reflect on how things have been going so far, and what's in store for the rest of my time as an Outreachyee.
 
 ## What have I been up to?
 
