@@ -212,6 +212,21 @@ a.btn-outline:active {
     left: 0;
 }
 
+/* IMAGES & CAPTIONS */
+img {
+  /* alt-text styling */
+  font-size: .75rem;
+  font-style: italic;
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+.caption {
+  font-size: .75rem;
+  font-style: normal;
+}
+.credit {
+  font-size: .6rem;
+  font-style: italic;
+}
 
 /* CODE */
 code {
