@@ -233,8 +233,27 @@ code {
   color: inherit; /* code color matches text or link/title color */
   white-space: nowrap;
 }
-pre > code {
-  white-space: pre-wrap; /* only code in <pre> blocks is allowed to wrap */
+pre > code, .code > pre {
+  white-space: pre; /* only code in <pre> blocks is allowed to wrap */
+}
+pre {
+  overflow-x: scroll;
+  padding: 5px;
+  white-space: pre;
+}
+.lineno {
+  word-break: keep-all;
+  padding: 0;
+  color: rgb(180,180,180);
+}
+code > table {
+  margin-bottom: 0;
+}
+code table, code td {
+  border: none;
+}
+figure {
+  margin: 0;
 }
 
 /* COLORS */
