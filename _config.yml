@@ -13,7 +13,7 @@ permalink:              /blog/:categories/:title/
 title:            'Anjana Sofia Vakil'
 name:             'Anjana Sofia Vakil'
 #tagline:          ''
-description:      'Language technologist and software developer'
+description:      'Software Engineer & Developer Advocate'
 #url:              http://vakila.github.io/
 baseurl:
 # blogurl:          /blog/
@@ -24,10 +24,10 @@ pdfs:           '/pdf'
 
 author:
   name:           'Anjana Sofia Vakil'
-  url:            vakila.github.io
+  url:            anjana.dev
   email:          'anjanavakil@gmail.com'
   github:         'https://github.com/vakila'
-  facebook:       'http://www.facebook.com/anjana.vakil'
+  facebook:       ''
   twitter:        'https://twitter.com/AnjanaVakil'
   googleplus:     ''
   linkedin:       'https://www.linkedin.com/in/anjanavakil '
