@@ -13,10 +13,10 @@ permalink:              /blog/:categories/:title/
 title:            'Anjana Sofia Vakil'
 name:             'Anjana Sofia Vakil'
 #tagline:          ''
-description:      'Software Engineer & Developer Advocate'
+description:      'Developer Educator & Software Engineer'
 #url:              http://vakila.github.io/
 baseurl:
-# blogurl:          /blog/
+blogurl:          /blog/
 
 # Assets
 images:         '/img'
@@ -32,8 +32,8 @@ author:
   googleplus:     ''
   linkedin:       'https://www.linkedin.com/in/anjanavakil '
 
-paginate:         3
-# paginate_path:    "/blog/page:num/"
+paginate:         5
+paginate_path:    "/blog/page:num/"
 
 # Custom vars
 version:          2.1.0
