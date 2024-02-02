@@ -29,7 +29,12 @@
       {% endcomment %}
 
       <a class="sidebar-nav-item"
-         href="{{ site.baseurl }}/">Blog</a>
+         href="{{ site.baseurl }}/">About</a>
+      <a class="sidebar-nav-item"
+         href="https://www.youtube.com/results?search_query=anjana+vakil" target="_blank">Talks</a>
+      <a class="sidebar-nav-item" href="https://frontendmasters.com/teachers/anjana-vakil/" target="_blank">Courses</a>
+      <a class="sidebar-nav-item"
+         href="{{ site.baseurl }}/blog/">Blog archive</a>
       {% comment %}{% if page.url contains "blog" %}
           <div class="blog-nav">
             <a href="{{ site.baseurl }}/archives/">Archives</a> &middot;
@@ -38,19 +43,16 @@
             <a href="{{ site.baseurl }}/atom.xml">Atom</a>
           </div>
       {% endif %}{% endcomment %}
-      <a class="sidebar-nav-item"
-         href="{{ site.baseurl }}/about/">About</a>
       <!-- a class="sidebar-nav-item"
          href="{{ site.baseurl }}/resume/">Resume</a -->
-      <a class="sidebar-nav-item"
+      <!-- <a class="sidebar-nav-item"
          href="{{ site.baseurl }}/projects/">Projects</a>
-      <a class="sidebar-nav-item"
-         href="{{ site.baseurl }}/talks/">Talks</a>
+      -->
     </nav>
 
     <ul class="list-inline" id="sidebar-buttons">
         <li>
-            <a href="mailto:{{ site.author.email }}" class="btn-social btn-outline" title="E-Mail me">
+            <a href="mailto:{{ site.author.email }}" class="btn-social btn-outline" title="{{ site.author.email }}">
                 <i class="fa fa-fw fa-at"></i>
             </a>
         </li>
