@@ -43,9 +43,9 @@ github:
 
 # Collections
 collections:
-  projects
-  talks
-  redirects:
+  - projects
+  - talks
+  - redirects:
     output: true
     permalink: /:path
 
