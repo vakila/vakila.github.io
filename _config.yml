@@ -45,9 +45,9 @@ github:
 collections:
   - projects
   - talks
-  - redirects:
+  redirects:
     output: true
-    permalink: /:path
+    permalink: /:name
 
 # defaults:
 #   -
