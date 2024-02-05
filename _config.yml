@@ -43,11 +43,11 @@ github:
 
 # Collections
 collections:
-  - projects
-  - talks
-  - redirects
-    - output: true
-    - permalink: /:path
+  projects
+  talks
+  redirects:
+    output: true
+    permalink: /:path
 
 # defaults:
 #   -
