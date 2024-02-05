@@ -49,7 +49,7 @@ collections:
     output: false
   redirects:
     output: true
-    permalink: /:name
+    permalink: ":name"
 
 # defaults:
 #   -
