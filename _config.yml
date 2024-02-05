@@ -43,8 +43,10 @@ github:
 
 # Collections
 collections:
-  - projects
-  - talks
+  projects:
+    output: false
+  talks:
+    output: false
   redirects:
     output: true
     permalink: /:name
