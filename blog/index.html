@@ -7,7 +7,7 @@ title: Blog Archive
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
-      <a href="{{ site.blogurl }}{{ post.url }}">
+      <a href="{{ post.url }}">
         {{ post.title | markdownify }}
       </a>
     </h1>
