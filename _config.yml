@@ -1,7 +1,7 @@
 # Dependencies
 highlighter:      rouge
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-feed
 
@@ -16,7 +16,7 @@ name:             'Anjana Sofia Vakil'
 description:      'Developer Educator & Software Engineer'
 #url:              http://vakila.github.io/
 baseurl:          '/'
-blogurl:          '/blog/'
+blogurl:          '/blog'
 
 # Assets
 images:         '/img'
